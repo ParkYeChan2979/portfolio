@@ -161,8 +161,3 @@ url = "about/"
 name = "활동"
 weight = 2
 url = "projects/"
-
-[[languages.ko.menu.main]]
-name = "연락처"
-weight = 3
-url = "contact/"
