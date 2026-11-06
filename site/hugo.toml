@@ -4,6 +4,8 @@ title = "YCP"
 languageCode = "ko"
 defaultContentLanguage = "ko"
 enableEmoji = true
+# 블로그 글이 없어 태그·분류 페이지가 비어 있으므로 생성하지 않음
+disableKinds = ["taxonomy", "term"]
 
 [pagination]
 pagerSize = 6
@@ -138,11 +140,6 @@ customRemoteJS = []
 # # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 # connectsrc = ["'self'", "https://www.google-analytics.com"]
 
-[taxonomies]
-category = "categories"
-series = "series"
-tag = "tags"
-author = "authors"
 
 [[params.social]]
 name = "GitHub"
