@@ -1,0 +1,132 @@
+# tools/check_site.py 실행 결과 - 2026-11-06 20:19 KST - 대상 커밋 eb233a88d4ab862b731f0c684c4e57fc9de7a7f2
+
+== https://parkyechan2979.github.io/portfolio/ -> 200
+  lang = ko | headings = h1 | h1 count = 1
+  img /portfolio/images/avatar.jpg alt= 'YCP 프로필 사진: 해커톤 행사장에서 휴대폰으로 발표 화면을 촬영하는 뒷모습'
+  link 200 #main-content
+  link 200 https://parkyechan2979.github.io/portfolio/
+  link 200 /portfolio/about/
+  link 200 /portfolio/projects/
+  link 200 https://github.com/ParkYeChan2979
+  link 200 /portfolio/about/
+  link 200 /portfolio/projects/
+  link 200 https://gohugo.io/
+  link 200 https://github.com/luizdepra/hugo-coder/
+  link 200 https://github.com/ParkYeChan2979/portfolio
+  asset 200 /portfolio/css/coder.min.5e94c1acf7aa2066035cf2764ae3e4fe39db101d68b870f919966100d51fb861.css
+  asset 200 /portfolio/css/coder-dark.min.ad48f476275974885bdc03d5251e3cdbe1678c54a63ff772376b0ed2adc468dd.css
+  asset 200 /portfolio/css/custom.min.0b9c87da65d4b7bb890f98fc7cb9fe153839d11f9f60f61a311b0be90c2c2f0f.css
+  asset 200 /portfolio/images/favicon.svg
+  asset 200 /portfolio/images/favicon-32x32.png
+  asset 200 /portfolio/images/favicon-16x16.png
+  asset 200 /portfolio/images/apple-touch-icon.png
+  asset 200 /portfolio/images/apple-touch-icon.png
+  asset 200 /portfolio/images/avatar.jpg
+  asset 200 /portfolio/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js
+  asset 200 /portfolio/js/custom.min.878d9377903d32f3cff313579aff741fe7c26ec7be1663025f5f6af2730316a8.js
+
+== https://parkyechan2979.github.io/portfolio/about/ -> 200
+  lang = ko | headings = h1 h2 h2 h2 h2 | h1 count = 1
+  link 200 #main-content
+  link 200 https://parkyechan2979.github.io/portfolio/
+  link 200 /portfolio/about/
+  link 200 /portfolio/projects/
+  link 200 https://parkyechan2979.github.io/portfolio/about/
+  link 200 #interest
+  link 200 #goal
+  link 200 ../projects/
+  link 200 #skills
+  link 200 ../projects/#web-lecture
+  link 200 ../projects/#portfolio
+  link 200 ../projects/#portfolio
+  link 200 #contact
+  link 200 https://github.com/ParkYeChan2979
+  link 200 https://github.com/ParkYeChan2979/portfolio
+  link 200 #page-top
+  link 200 /portfolio/
+  link 200 https://gohugo.io/
+  link 200 https://github.com/luizdepra/hugo-coder/
+  link 200 https://github.com/ParkYeChan2979/portfolio
+  asset 200 /portfolio/css/coder.min.5e94c1acf7aa2066035cf2764ae3e4fe39db101d68b870f919966100d51fb861.css
+  asset 200 /portfolio/css/coder-dark.min.ad48f476275974885bdc03d5251e3cdbe1678c54a63ff772376b0ed2adc468dd.css
+  asset 200 /portfolio/css/custom.min.0b9c87da65d4b7bb890f98fc7cb9fe153839d11f9f60f61a311b0be90c2c2f0f.css
+  asset 200 /portfolio/images/favicon.svg
+  asset 200 /portfolio/images/favicon-32x32.png
+  asset 200 /portfolio/images/favicon-16x16.png
+  asset 200 /portfolio/images/apple-touch-icon.png
+  asset 200 /portfolio/images/apple-touch-icon.png
+  asset 200 /portfolio/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js
+  asset 200 /portfolio/js/custom.min.878d9377903d32f3cff313579aff741fe7c26ec7be1663025f5f6af2730316a8.js
+
+== https://parkyechan2979.github.io/portfolio/projects/ -> 200
+  lang = ko | headings = h1 h2 h3 h3 h3 h3 h3 h3 h2 h3 h3 h3 h3 h3 h3 | h1 count = 1
+  img ../images/projects/portfolio-home-1440.jpg alt= '완성한 포트폴리오 홈 화면(1440px): 가운데에 원형 프로필 사진, 이름 YCP, 소개 문구, GitHub 아이콘, ‘소개 보기’·‘활동 보기’ 버튼이 있고 오른쪽 위에 소개·활동 메뉴가 있다'
+  link 200 #main-content
+  link 200 https://parkyechan2979.github.io/portfolio/
+  link 200 /portfolio/about/
+  link 200 /portfolio/projects/
+  link 200 https://parkyechan2979.github.io/portfolio/projects/
+  link 200 #portfolio
+  link 200 #web-lecture
+  link 200 #portfolio
+  link 200 #%ea%b8%b0%ea%b0%84%ea%b3%bc-%ec%83%81%ed%83%9c
+  link 200 #%eb%aa%a9%ec%a0%81
+  link 200 #%ec%97%ad%ed%95%a0
+  link 200 https://github.com/luizdepra/hugo-coder
+  link 200 #%ea%b3%bc%ec%a0%95%ea%b3%bc-%ec%84%a0%ed%83%9d-%ec%9d%b4%ec%9c%a0
+  link 200 #%ec%82%b0%ec%b6%9c%eb%ac%bc
+  link 200 https://parkyechan2979.github.io/portfolio/
+  link 200 https://github.com/ParkYeChan2979/portfolio
+  link 200 https://github.com/ParkYeChan2979/portfolio/actions
+  link 200 #%eb%b0%b0%ec%9a%b4-%ec%a0%90%ea%b3%bc-%ea%b0%9c%ec%84%a0-%eb%b0%a9%ed%96%a5
+  link 200 #web-lecture
+  link 200 #%ea%b8%b0%ea%b0%84%ea%b3%bc-%ec%83%81%ed%83%9c-1
+  link 200 #%eb%aa%a9%ec%a0%81-1
+  link 200 #%ec%97%ad%ed%95%a0-1
+  link 200 #%ea%b3%bc%ec%a0%95
+  link 200 #%ec%82%b0%ec%b6%9c%eb%ac%bc-1
+  link 200 https://github.com/web-n/web2_javascript
+  link 200 #%eb%b0%b0%ec%9a%b4-%ec%a0%90%ea%b3%bc-%ea%b0%9c%ec%84%a0-%eb%b0%a9%ed%96%a5-1
+  link 200 #portfolio
+  link 200 ../about/#goal
+  link 200 #page-top
+  link 200 /portfolio/
+  link 200 https://gohugo.io/
+  link 200 https://github.com/luizdepra/hugo-coder/
+  link 200 https://github.com/ParkYeChan2979/portfolio
+  asset 200 /portfolio/css/coder.min.5e94c1acf7aa2066035cf2764ae3e4fe39db101d68b870f919966100d51fb861.css
+  asset 200 /portfolio/css/coder-dark.min.ad48f476275974885bdc03d5251e3cdbe1678c54a63ff772376b0ed2adc468dd.css
+  asset 200 /portfolio/css/custom.min.0b9c87da65d4b7bb890f98fc7cb9fe153839d11f9f60f61a311b0be90c2c2f0f.css
+  asset 200 /portfolio/images/favicon.svg
+  asset 200 /portfolio/images/favicon-32x32.png
+  asset 200 /portfolio/images/favicon-16x16.png
+  asset 200 /portfolio/images/apple-touch-icon.png
+  asset 200 /portfolio/images/apple-touch-icon.png
+  asset 200 ../images/projects/portfolio-home-1440.jpg
+  asset 200 /portfolio/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js
+  asset 200 /portfolio/js/custom.min.878d9377903d32f3cff313579aff741fe7c26ec7be1663025f5f6af2730316a8.js
+
+== https://parkyechan2979.github.io/portfolio/404.html -> 200
+  lang = ko | headings = h1 h2 | h1 count = 1
+  link 200 #main-content
+  link 200 https://parkyechan2979.github.io/portfolio/
+  link 200 /portfolio/about/
+  link 200 /portfolio/projects/
+  link 200 /portfolio/
+  link 200 /portfolio/about/
+  link 200 /portfolio/projects/
+  link 200 https://gohugo.io/
+  link 200 https://github.com/luizdepra/hugo-coder/
+  link 200 https://github.com/ParkYeChan2979/portfolio
+  asset 200 /portfolio/css/coder.min.5e94c1acf7aa2066035cf2764ae3e4fe39db101d68b870f919966100d51fb861.css
+  asset 200 /portfolio/css/coder-dark.min.ad48f476275974885bdc03d5251e3cdbe1678c54a63ff772376b0ed2adc468dd.css
+  asset 200 /portfolio/css/custom.min.0b9c87da65d4b7bb890f98fc7cb9fe153839d11f9f60f61a311b0be90c2c2f0f.css
+  asset 200 /portfolio/images/favicon.svg
+  asset 200 /portfolio/images/favicon-32x32.png
+  asset 200 /portfolio/images/favicon-16x16.png
+  asset 200 /portfolio/images/apple-touch-icon.png
+  asset 200 /portfolio/images/apple-touch-icon.png
+  asset 200 /portfolio/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js
+  asset 200 /portfolio/js/custom.min.878d9377903d32f3cff313579aff741fe7c26ec7be1663025f5f6af2730316a8.js
+
+== PROBLEMS: 0

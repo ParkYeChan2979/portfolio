@@ -1,0 +1,184 @@
+# 자동 검증 로그 (Playwright, Chrome 156.0.8078.80, Edge 156.0.4314.58) 2026-11-06 20:19 KST
+
+===== Chrome 156.0.8078.80 (2026-11-06 20:18 KST, 새 프로필·캐시 없음, 로그인 없음) =====
+
+[A 배포·공개]
+  [O] A1 로그인 없는 새 프로필로 HTTPS 홈 접속  -- 200 https://parkyechan2979.github.io/portfolio/ title=YCP
+  [O] A2 저장소 열람  -- 200 https://github.com/ParkYeChan2979/portfolio
+  [O] A3 워크플로 파일 열람  -- 200 https://github.com/ParkYeChan2979/portfolio/blob/main/.github/workflows/hugo-pages.yml
+  [O] A4 커밋 이력 열람  -- 200 https://github.com/ParkYeChan2979/portfolio/commits/main
+  [O] A5 Actions 실행 목록 열람  -- 200 https://github.com/ParkYeChan2979/portfolio/actions
+  [O] A5b 최종 커밋 eb233a8 실행 상세 열람  -- https://github.com/ParkYeChan2979/portfolio/actions/runs/42209089002
+
+[B 경로·자산]
+  [O] B1 home: 직접 URL 200, CSS 3개 적용, 4xx/실패 요청 없음  -- 200 nav높이=60px bad=[]
+  [O] B2 home: 이미지 모두 표시·alt 있음  -- [['/portfolio/images/avatar.jpg', True, 'YCP 프로필 사진: 해커톤 행사장에서 휴대폰으로 발표 화면을 촬영하는 뒷모습']]
+  [O] B3 home: html lang=ko, h1 1개  -- ko ['YCP']
+  [O] B1 about: 직접 URL 200, CSS 3개 적용, 4xx/실패 요청 없음  -- 200 nav높이=60px bad=[]
+  [O] B2 about: 이미지 모두 표시·alt 있음  -- []
+  [O] B3 about: html lang=ko, h1 1개  -- ko ['소개']
+  [O] B1 projects: 직접 URL 200, CSS 3개 적용, 4xx/실패 요청 없음  -- 200 nav높이=60px bad=[]
+  [O] B2 projects: 이미지 모두 표시·alt 있음  -- [['../images/projects/portfolio-home-1440.jpg', True, '완성한 포트폴리오 홈 화면(1440px): 가운데에 원형 프로필 사진, 이름 YCP, 소개 문구, GitHub 아이콘, ‘소개 보기’·‘활동 보기’ 버튼이 있고 오른쪽 위에 소개·활동 메뉴가 있다']]
+  [O] B3 projects: html lang=ko, h1 1개  -- ko ['활동']
+  [O] B4 잘못된 주소 → 스타일 적용된 404 페이지와 이동 버튼  -- 404 links=['/portfolio/', '/portfolio/about/', '/portfolio/projects/']
+  [O] B5 아이콘 글꼴(Font Awesome) 로드·파비콘 200  -- font=True favicon=200
+  [O] B6 콘솔 실행 오류 0건  -- []
+
+[C 메뉴·링크]
+  [O] C1 메뉴 "소개" → about/, 제목 "소개"  -- https://parkyechan2979.github.io/portfolio/about/
+  [O] C1 메뉴 "활동" → projects/, 제목 "활동"  -- https://parkyechan2979.github.io/portfolio/projects/
+  [O] C2 홈 버튼 "소개 보기" → about/  -- https://parkyechan2979.github.io/portfolio/about/
+  [O] C2 홈 버튼 "활동 보기" → projects/  -- https://parkyechan2979.github.io/portfolio/projects/
+  [O] C3 사이트 제목 YCP → 홈  -- https://parkyechan2979.github.io/portfolio/
+  [O] C4 활동 목차 → #portfolio (제목이 화면 위쪽)  -- top=20
+  [O] C4 활동 목차 → #web-lecture (제목이 화면 위쪽)  -- top=20
+  [O] C9 목차 이동 후 뒤로 가기 → 이전 위치(#portfolio)  -- https://parkyechan2979.github.io/portfolio/projects/#portfolio
+  [O] C9b 페이지 이동 후 뒤로 가기 → 이전 페이지  -- https://parkyechan2979.github.io/portfolio/about/
+  [O] C5 하단 "페이지 처음으로" → 맨 위  -- scrollY=0
+  [O] C5b 하단 "홈으로" → 홈  -- https://parkyechan2979.github.io/portfolio/
+  [O] C6 주소창 직접 입력 about/#goal → 해당 절 표시  -- top=20
+  [O] C8 about/#goal 새로고침 후에도 같은 내용  -- top=20
+  [O] C6 주소창 직접 입력 projects/#web-lecture → 해당 절 표시  -- top=20
+  [O] C8 projects/#web-lecture 새로고침 후에도 같은 내용  -- top=20
+  [O] C13 빈 링크·의미 없는 # 없음  -- []
+  [O] C10 홈 GitHub 아이콘 → 본인 계정  -- https://github.com/ParkYeChan2979
+  [O] C12 외부 링크 열림 https://github.com/ParkYeChan2979  -- 200
+  [O] C12 외부 링크 열림 https://github.com/ParkYeChan2979/portfolio  -- 200
+  [O] C12 외부 링크 열림 https://github.com/ParkYeChan2979/portfolio/actions  -- 200
+  [O] C12 외부 링크 열림 https://github.com/luizdepra/hugo-coder  -- 200
+  [O] C12 외부 링크 열림 https://github.com/luizdepra/hugo-coder/  -- 200
+  [O] C12 외부 링크 열림 https://github.com/web-n/web2_javascript  -- 200
+  [O] C12 외부 링크 열림 https://gohugo.io/  -- 200
+
+[D 반응형]
+  [O] D1 1440px home: 가로 넘침 없음  -- scrollWidth=1440 width=1440
+  [O] D1 1440px about: 가로 넘침 없음  -- scrollWidth=1425 width=1440
+  [O] D1 1440px projects: 가로 넘침 없음  -- scrollWidth=1425 width=1440
+  [O] D1 1024px home: 가로 넘침 없음  -- scrollWidth=1024 width=1024
+  [O] D1 1024px about: 가로 넘침 없음  -- scrollWidth=1009 width=1024
+  [O] D1 1024px projects: 가로 넘침 없음  -- scrollWidth=1009 width=1024
+  [O] D1 768px home: 가로 넘침 없음  -- scrollWidth=768 width=768
+  [O] D1 768px about: 가로 넘침 없음  -- scrollWidth=753 width=768
+  [O] D1 768px projects: 가로 넘침 없음  -- scrollWidth=753 width=768
+  [O] D1 390px home: 가로 넘침 없음  -- scrollWidth=390 width=390
+  [O] D1 390px about: 가로 넘침 없음  -- scrollWidth=375 width=390
+  [O] D1 390px projects: 가로 넘침 없음  -- scrollWidth=375 width=390
+  [O] D1 320px home: 가로 넘침 없음  -- scrollWidth=320 width=320
+  [O] D1 320px about: 가로 넘침 없음  -- scrollWidth=305 width=320
+  [O] D1 320px projects: 가로 넘침 없음  -- scrollWidth=305 width=320
+  [O] D4 390px ☰ 표시 → 메뉴 펼침 → "활동" 이동  -- btn=True list=visible url=https://parkyechan2979.github.io/portfolio/projects/
+  [O] D5 1440→390(메뉴 열기)→1440→390→1440 새로고침 없이: 메뉴·본문 보임  -- visible ['visible', True]
+  [O] D6 390px 활동 이미지: 폭에 맞게 축소, 비율 유지  -- {'w': 335.20001220703125, 'h': 314.25, 'nw': 800, 'nh': 750, 'cw': 335.20001220703125}
+  [O] D7 390px 고정 다크 모드 버튼이 푸터 글을 가리지 않음
+  [O] D8 390px 홈 버튼 2개가 겹치지 않고 높이 44px 이상(터치 구분)  -- [[69, 189, 564, 617], [201, 321, 564, 617]]
+  [O] D9 200% 확대(1440 창 = CSS 720px, 배율 2): 가로 넘침 없음·메뉴 사용 가능  -- home {'sw': 705, 'w': 720} about {'sw': 705, 'w': 720} menu=True
+
+[E 키보드]
+  Tab 순서: 본문으로 건너뛰기 → 다크 모드 켜기/끄기 → YCP → 소개 → 활동 → GitHub → 소개 보기 → 활동 보기 → Hugo → Coder → 소스 코드 → 본문으로 건너뛰기
+YCP
+소개
+활동
+YCP
+
+전북대학교
+  [O] E1 Tab으로 주요 메뉴·링크 순서대로 도달
+  [O] E2 초점마다 테두리(outline) 표시  -- ['solid 2.4px', 'solid 2.4px', 'solid 2.4px', 'solid 2.4px', 'solid 2.4px', 'solid 2.4px', 'solid 2.4px', 'solid 2.4px']
+  [O] E3 "본문으로 건너뛰기" Enter → 본문으로 초점 이동
+  [O] E4 다크 모드 버튼 Enter → 테마 전환, 다시 Enter → 복귀  -- colorscheme-light → colorscheme-dark → colorscheme-light
+  [O] E9 다크 모드 글자·링크 명암비 4.5 이상  -- {'dark': True, 'text': '11.5', 'link': '6.1'}
+  [O] E5 "소개" 메뉴에서 Enter → 소개 페이지  -- https://parkyechan2979.github.io/portfolio/about/
+  [O] E6 Shift+Tab 역방향 이동  -- 활동 → 소개
+  [O] E7 390px Tab → ☰(초점 테두리) → Enter로 메뉴 열림 → Tab으로 메뉴 항목  -- label=solid 2.4px open=True 소개,활동
+  [O] E7b 메뉴 항목에서 Enter → 활동 페이지  -- https://parkyechan2979.github.io/portfolio/projects/
+  [O] E8 390px 메뉴를 연 뒤 Tab 연속 → 본문·푸터까지 이동(갇힘 없음)  -- 소개 → 활동 → GitHub → 소개 보기 → 활동 보기 → Hugo → Coder → 소스 코드 → 본문으로 건너뛰기
+YCP
+소개
+활동
+YCP
+
+전북대학교 → 본문으로 건너뛰기 → 다크 모드 켜기/끄기 → YCP → 메뉴 열기/닫기 → 소개 → 활동
+  [O] E10 자동으로 계속 움직이는 요소 없음  -- animations=0
+  [O] B6b Chrome 전체 검사 중 콘솔 오류 0건  -- []
+
+===== Edge 156.0.4314.58 (2026-11-06 20:19 KST, 새 프로필·캐시 없음, 로그인 없음) =====
+
+[A 배포·공개]
+  [O] A1 로그인 없는 새 프로필로 HTTPS 홈 접속  -- 200 https://parkyechan2979.github.io/portfolio/ title=YCP
+
+[B 경로·자산]
+  [O] B1 home: 직접 URL 200, CSS 3개 적용, 4xx/실패 요청 없음  -- 200 nav높이=60px bad=[]
+  [O] B2 home: 이미지 모두 표시·alt 있음  -- [['/portfolio/images/avatar.jpg', True, 'YCP 프로필 사진: 해커톤 행사장에서 휴대폰으로 발표 화면을 촬영하는 뒷모습']]
+  [O] B3 home: html lang=ko, h1 1개  -- ko ['YCP']
+  [O] B1 about: 직접 URL 200, CSS 3개 적용, 4xx/실패 요청 없음  -- 200 nav높이=60px bad=[]
+  [O] B2 about: 이미지 모두 표시·alt 있음  -- []
+  [O] B3 about: html lang=ko, h1 1개  -- ko ['소개']
+  [O] B1 projects: 직접 URL 200, CSS 3개 적용, 4xx/실패 요청 없음  -- 200 nav높이=60px bad=[]
+  [O] B2 projects: 이미지 모두 표시·alt 있음  -- [['../images/projects/portfolio-home-1440.jpg', True, '완성한 포트폴리오 홈 화면(1440px): 가운데에 원형 프로필 사진, 이름 YCP, 소개 문구, GitHub 아이콘, ‘소개 보기’·‘활동 보기’ 버튼이 있고 오른쪽 위에 소개·활동 메뉴가 있다']]
+  [O] B3 projects: html lang=ko, h1 1개  -- ko ['활동']
+  [O] B4 잘못된 주소 → 스타일 적용된 404 페이지와 이동 버튼  -- 404 links=['/portfolio/', '/portfolio/about/', '/portfolio/projects/']
+  [O] B5 아이콘 글꼴(Font Awesome) 로드·파비콘 200  -- font=True favicon=200
+  [O] B6 콘솔 실행 오류 0건  -- []
+
+[C 메뉴·링크]
+  [O] C1 메뉴 "소개" → about/, 제목 "소개"  -- https://parkyechan2979.github.io/portfolio/about/
+  [O] C1 메뉴 "활동" → projects/, 제목 "활동"  -- https://parkyechan2979.github.io/portfolio/projects/
+  [O] C2 홈 버튼 "소개 보기" → about/  -- https://parkyechan2979.github.io/portfolio/about/
+  [O] C2 홈 버튼 "활동 보기" → projects/  -- https://parkyechan2979.github.io/portfolio/projects/
+  [O] C3 사이트 제목 YCP → 홈  -- https://parkyechan2979.github.io/portfolio/
+  [O] C4 활동 목차 → #portfolio (제목이 화면 위쪽)  -- top=20
+  [O] C4 활동 목차 → #web-lecture (제목이 화면 위쪽)  -- top=20
+  [O] C9 목차 이동 후 뒤로 가기 → 이전 위치(#portfolio)  -- https://parkyechan2979.github.io/portfolio/projects/#portfolio
+  [O] C9b 페이지 이동 후 뒤로 가기 → 이전 페이지  -- https://parkyechan2979.github.io/portfolio/about/
+  [O] C5 하단 "페이지 처음으로" → 맨 위  -- scrollY=0
+  [O] C5b 하단 "홈으로" → 홈  -- https://parkyechan2979.github.io/portfolio/
+  [O] C6 주소창 직접 입력 about/#goal → 해당 절 표시  -- top=20
+  [O] C8 about/#goal 새로고침 후에도 같은 내용  -- top=20
+  [O] C6 주소창 직접 입력 projects/#web-lecture → 해당 절 표시  -- top=20
+  [O] C8 projects/#web-lecture 새로고침 후에도 같은 내용  -- top=20
+  [O] C13 빈 링크·의미 없는 # 없음  -- []
+  [O] C10 홈 GitHub 아이콘 → 본인 계정  -- https://github.com/ParkYeChan2979
+
+[D 반응형]
+  [O] D1 1440px home: 가로 넘침 없음  -- scrollWidth=1440 width=1440
+  [O] D1 1440px about: 가로 넘침 없음  -- scrollWidth=1425 width=1440
+  [O] D1 1440px projects: 가로 넘침 없음  -- scrollWidth=1425 width=1440
+  [O] D1 768px home: 가로 넘침 없음  -- scrollWidth=768 width=768
+  [O] D1 768px about: 가로 넘침 없음  -- scrollWidth=753 width=768
+  [O] D1 768px projects: 가로 넘침 없음  -- scrollWidth=753 width=768
+  [O] D1 390px home: 가로 넘침 없음  -- scrollWidth=390 width=390
+  [O] D1 390px about: 가로 넘침 없음  -- scrollWidth=375 width=390
+  [O] D1 390px projects: 가로 넘침 없음  -- scrollWidth=375 width=390
+  [O] D4 390px ☰ 표시 → 메뉴 펼침 → "활동" 이동  -- btn=True list=visible url=https://parkyechan2979.github.io/portfolio/projects/
+  [O] D5 1440→390(메뉴 열기)→1440→390→1440 새로고침 없이: 메뉴·본문 보임  -- visible ['visible', True]
+  [O] D6 390px 활동 이미지: 폭에 맞게 축소, 비율 유지  -- {'w': 335.20001220703125, 'h': 314.25, 'nw': 800, 'nh': 750, 'cw': 335.20001220703125}
+  [O] D7 390px 고정 다크 모드 버튼이 푸터 글을 가리지 않음
+  [O] D8 390px 홈 버튼 2개가 겹치지 않고 높이 44px 이상(터치 구분)  -- [[69, 189, 564, 617], [201, 321, 564, 617]]
+
+[E 키보드]
+  Tab 순서: 본문으로 건너뛰기 → 다크 모드 켜기/끄기 → YCP → 소개 → 활동 → GitHub → 소개 보기 → 활동 보기 → Hugo → Coder → 소스 코드 → 본문으로 건너뛰기
+YCP
+소개
+활동
+YCP
+
+전북대학교
+  [O] E1 Tab으로 주요 메뉴·링크 순서대로 도달
+  [O] E2 초점마다 테두리(outline) 표시  -- ['solid 2.4px', 'solid 2.4px', 'solid 2.4px', 'solid 2.4px', 'solid 2.4px', 'solid 2.4px', 'solid 2.4px', 'solid 2.4px']
+  [O] E3 "본문으로 건너뛰기" Enter → 본문으로 초점 이동
+  [O] E4 다크 모드 버튼 Enter → 테마 전환, 다시 Enter → 복귀  -- colorscheme-light → colorscheme-dark → colorscheme-light
+  [O] E9 다크 모드 글자·링크 명암비 4.5 이상  -- {'dark': True, 'text': '11.5', 'link': '6.1'}
+  [O] E5 "소개" 메뉴에서 Enter → 소개 페이지  -- https://parkyechan2979.github.io/portfolio/about/
+  [O] E6 Shift+Tab 역방향 이동  -- 활동 → 소개
+  [O] E7 390px Tab → ☰(초점 테두리) → Enter로 메뉴 열림 → Tab으로 메뉴 항목  -- label=solid 2.4px open=True 소개,활동
+  [O] E7b 메뉴 항목에서 Enter → 활동 페이지  -- https://parkyechan2979.github.io/portfolio/projects/
+  [O] E8 390px 메뉴를 연 뒤 Tab 연속 → 본문·푸터까지 이동(갇힘 없음)  -- GitHub → 소개 보기 → 활동 보기 → Hugo → Coder → 소스 코드 → 본문으로 건너뛰기
+YCP
+소개
+활동
+YCP
+
+전북대학교 → 본문으로 건너뛰기 → 다크 모드 켜기/끄기 → YCP → 메뉴 열기/닫기 → 소개 → 활동 → GitHub → 소개 보기
+  [O] E10 자동으로 계속 움직이는 요소 없음  -- animations=0
+  [O] B6b Edge 전체 검사 중 콘솔 오류 0건  -- []
+
+===== 요약: 131/131 통과, 실패 0건 =====
