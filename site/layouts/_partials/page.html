@@ -1,0 +1,19 @@
+{{/* 테마 원본 page.html 재정의: 긴 페이지 아래쪽에서 페이지 처음·홈으로 돌아가는 링크 추가 */}}
+<section class="container page">
+  <article id="page-top">
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="{{ .Permalink | safeURL }}">
+          {{ .Title }}
+        </a>
+      </h1>
+    </header>
+
+    {{ .Content }}
+
+    <nav class="page-bottom-nav" aria-label="페이지 이동">
+      <a href="#page-top">↑ 페이지 처음으로</a>
+      <a href="{{ "" | relLangURL }}">홈으로</a>
+    </nav>
+  </article>
+</section>

@@ -96,3 +96,17 @@ body.colorscheme-dark button:focus-visible {
 .content h3[id] {
   scroll-margin-top: 2rem;
 }
+
+/* 페이지 아래쪽 이동 링크 (페이지 처음으로 / 홈으로) */
+.page-bottom-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2.4rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+.page-bottom-nav a {
+  display: inline-block;
+  padding: 0.8rem 0;
+}
