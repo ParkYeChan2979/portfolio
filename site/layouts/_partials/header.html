@@ -1,0 +1,42 @@
+{{/* 테마 원본 header.html 재정의: 모바일 메뉴 체크박스에 접근 가능한 이름(aria-label)과 메뉴 연결(aria-controls) 추가 */}}
+<nav class="navigation">
+  <section class="container">
+    {{ with .Site }}
+    <a class="navigation-title" href="{{ absLangURL "" }}">
+      {{ .Title }}
+    </a>
+    {{ end }}
+    {{ if or .Site.Menus.main hugo.IsMultilingual }}
+      <input type="checkbox" id="menu-toggle" aria-label="메뉴 열기/닫기" aria-controls="site-menu" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list" id="site-menu">
+        {{ with .Site.Menus.main}}
+          {{ range sort . }}
+            <li class="navigation-item">
+              <a class="navigation-link {{ .Params.class }}" href="{{ index (apply (slice .URL) (.Params.urlFunc | default "relLangURL") ".") 0 }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+        {{ if hugo.IsMultilingual }}
+          {{ $node := . }}
+          {{ .Scratch.Set "separator" true }}
+          {{ range (default .Site.Home.AllTranslations .Translations) }}
+            {{ if ne $.Site.Language .Language }}
+              {{ if $node.Scratch.Get "separator" }}
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                {{ $node.Scratch.Set "separator" false }}
+              {{ end }}
+              <li class="navigation-item">
+                <a href="{{ .RelPermalink }}">{{ .Language.LanguageName | emojify }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </section>
+</nav>
