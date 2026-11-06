@@ -107,3 +107,4 @@ for page in PAGES:
 print('\n== PROBLEMS:', len(problems))
 for x in problems:
     print(' -', x)
+sys.exit(1 if problems else 0)
