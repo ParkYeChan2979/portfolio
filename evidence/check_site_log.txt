@@ -1,4 +1,4 @@
-# tools/check_site.py 실행 결과 - 2026-11-06 22:45 KST - 대상 커밋 f6999dfe0d068e9f8ca0742734edfe6d26448b8f
+# tools/check_site.py 실행 결과 - 2026-11-06 23:11 KST - 대상 커밋 ed1771e45862f506b184dbb58bcd0319616198f2
 
 == https://parkyechan2979.github.io/portfolio/ -> 200
   lang = ko | headings = h1 | h1 count = 1

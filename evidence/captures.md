@@ -1,6 +1,6 @@
 # 검증 캡처 목록
 
-- 대상: 공개 사이트 <https://parkyechan2979.github.io/portfolio/>, 검증 대상 커밋 `f6999dfe0d068e9f8ca0742734edfe6d26448b8f`
+- 대상: 공개 사이트 <https://parkyechan2979.github.io/portfolio/>, 검증 대상 커밋 `ed1771e45862f506b184dbb58bcd0319616198f2`
 - 브라우저: Google Chrome 156.0.8078.80 (Windows 11 Home 25H2)
 - 방법
   - **자동:** Playwright가 설치된 Chrome을 새 프로필(캐시 없음, 로그인 없음)로 조작해 캡처했습니다.
@@ -9,20 +9,20 @@
 
 | 그림 | 파일 | 내용 | URL | 폭 | 시각 | 방법 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | `fig01_home_1440.png` | 홈 화면(데스크톱) | https://parkyechan2979.github.io/portfolio/ | 1440px | 22:44 | 자동 |
-| 2 | `fig02_home_390.png` | 홈 화면(모바일) | https://parkyechan2979.github.io/portfolio/ | 390px | 22:44 | 자동 |
-| 3 | `fig03_about_1440.png` | 소개 페이지 전체(P71~P73) | https://parkyechan2979.github.io/portfolio/about/ | 1440px | 22:44 | 자동 |
-| 4 | `fig04_projects_1440.png` | 활동 페이지 전체(P74~P79) | https://parkyechan2979.github.io/portfolio/projects/ | 1440px | 22:44 | 자동 |
-| 5 | `fig05_projects_390.png` | 활동 페이지 모바일, 긴 URL 줄바꿈 | https://parkyechan2979.github.io/portfolio/projects/ | 390px | 22:44 | 자동 |
-| 6 | `fig06_menu_open_390.png` | 모바일 메뉴(☰) 펼침 | https://parkyechan2979.github.io/portfolio/ | 390px | 22:44 | 자동 |
-| 7 | `fig07_focus_menu_1440.png` | Tab 초점이 "소개" 메뉴에 있는 상태 | https://parkyechan2979.github.io/portfolio/ | 1440px | 22:44 | 자동 |
-| 8 | `fig08_focus_menubtn_390.png` | Tab 초점이 ☰ 메뉴 버튼에 있는 상태 | https://parkyechan2979.github.io/portfolio/ | 390px | 22:44 | 자동 |
-| 9 | `fig09_focus_darkmode_1440.png` | Tab 초점이 다크 모드 버튼에 있는 상태 | https://parkyechan2979.github.io/portfolio/ | 1440px | 22:44 | 자동 |
+| 1 | `fig01_home_1440.png` | 홈 화면(데스크톱) | https://parkyechan2979.github.io/portfolio/ | 1440px | 23:10 | 자동 |
+| 2 | `fig02_home_390.png` | 홈 화면(모바일) | https://parkyechan2979.github.io/portfolio/ | 390px | 23:10 | 자동 |
+| 3 | `fig03_about_1440.png` | 소개 페이지 전체(P71~P73) | https://parkyechan2979.github.io/portfolio/about/ | 1440px | 23:10 | 자동 |
+| 4 | `fig04_projects_1440.png` | 활동 페이지 전체(P74~P79) | https://parkyechan2979.github.io/portfolio/projects/ | 1440px | 23:10 | 자동 |
+| 5 | `fig05_projects_390.png` | 활동 페이지 모바일, 긴 URL 줄바꿈 | https://parkyechan2979.github.io/portfolio/projects/ | 390px | 23:10 | 자동 |
+| 6 | `fig06_menu_open_390.png` | 모바일 메뉴(☰) 펼침 | https://parkyechan2979.github.io/portfolio/ | 390px | 23:10 | 자동 |
+| 7 | `fig07_focus_menu_1440.png` | Tab 초점이 "소개" 메뉴에 있는 상태 | https://parkyechan2979.github.io/portfolio/ | 1440px | 23:10 | 자동 |
+| 8 | `fig08_focus_menubtn_390.png` | Tab 초점이 ☰ 메뉴 버튼에 있는 상태 | https://parkyechan2979.github.io/portfolio/ | 390px | 23:10 | 자동 |
+| 9 | `fig09_focus_darkmode_1440.png` | Tab 초점이 다크 모드 버튼에 있는 상태 | https://parkyechan2979.github.io/portfolio/ | 1440px | 23:10 | 자동 |
 | 10 | `fig10_network_1440.png` | Network 탭(Disable cache): 모든 요청 200 | https://parkyechan2979.github.io/portfolio/ | 1440px | 20:58 | 직접 |
 | 11 | `fig11_console_1440.png` | Console 탭: 오류 0건 | https://parkyechan2979.github.io/portfolio/ | 1440px | 21:00 | 직접 |
-| 14 | `fig14_zoom200_1440.png` | 브라우저 200% 확대 (1440px 창 = CSS 720px, 배율 2) | https://parkyechan2979.github.io/portfolio/ | 1440px | 22:44 | 자동 |
+| 14 | `fig14_zoom200_1440.png` | 브라우저 200% 확대 (1440px 창 = CSS 720px, 배율 2) | https://parkyechan2979.github.io/portfolio/ | 1440px | 23:10 | 자동 |
 
-> 그림 10·11(직접 캡처)은 검증 대상 커밋보다 앞선 `eb233a8` 배포본의 홈에서 찍었습니다. 이후 사이트 변경(`f6999df`)은 소개·활동 페이지 제목 옆 링크 아이콘 제거뿐이고 홈 화면과 요청 목록에는 영향이 없습니다. 최신 배포본도 자동 검증(B1·B6)과 `check_site_log.txt`에서 모든 요청 200, 콘솔 오류 0건을 확인했습니다.
+> 그림 10·11(직접 캡처)은 검증 대상 커밋보다 앞선 `eb233a8` 배포본의 홈에서 시크릿 창으로 찍었습니다. 이후 사이트 변경(`f6999df` 제목 링크 아이콘 제거, `ed1771e` 소개·활동 글 정정)은 소개·활동 페이지에만 해당하고 홈 화면과 요청 목록에는 영향이 없습니다. 최신 배포본도 자동 검증(B1·B6)과 `check_site_log.txt`에서 모든 요청 200, 콘솔 오류 0건을 확인했습니다.
 
 ## 로그
 
