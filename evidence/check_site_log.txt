@@ -1,4 +1,4 @@
-# tools/check_site.py 실행 결과 - 2026-11-06 20:19 KST - 대상 커밋 eb233a88d4ab862b731f0c684c4e57fc9de7a7f2
+# tools/check_site.py 실행 결과 - 2026-11-06 22:45 KST - 대상 커밋 f6999dfe0d068e9f8ca0742734edfe6d26448b8f
 
 == https://parkyechan2979.github.io/portfolio/ -> 200
   lang = ko | headings = h1 | h1 count = 1
@@ -32,14 +32,10 @@
   link 200 /portfolio/about/
   link 200 /portfolio/projects/
   link 200 https://parkyechan2979.github.io/portfolio/about/
-  link 200 #interest
-  link 200 #goal
   link 200 ../projects/
-  link 200 #skills
   link 200 ../projects/#web-lecture
   link 200 ../projects/#portfolio
   link 200 ../projects/#portfolio
-  link 200 #contact
   link 200 https://github.com/ParkYeChan2979
   link 200 https://github.com/ParkYeChan2979/portfolio
   link 200 #page-top
@@ -68,25 +64,11 @@
   link 200 https://parkyechan2979.github.io/portfolio/projects/
   link 200 #portfolio
   link 200 #web-lecture
-  link 200 #portfolio
-  link 200 #%ea%b8%b0%ea%b0%84%ea%b3%bc-%ec%83%81%ed%83%9c
-  link 200 #%eb%aa%a9%ec%a0%81
-  link 200 #%ec%97%ad%ed%95%a0
   link 200 https://github.com/luizdepra/hugo-coder
-  link 200 #%ea%b3%bc%ec%a0%95%ea%b3%bc-%ec%84%a0%ed%83%9d-%ec%9d%b4%ec%9c%a0
-  link 200 #%ec%82%b0%ec%b6%9c%eb%ac%bc
   link 200 https://parkyechan2979.github.io/portfolio/
   link 200 https://github.com/ParkYeChan2979/portfolio
   link 200 https://github.com/ParkYeChan2979/portfolio/actions
-  link 200 #%eb%b0%b0%ec%9a%b4-%ec%a0%90%ea%b3%bc-%ea%b0%9c%ec%84%a0-%eb%b0%a9%ed%96%a5
-  link 200 #web-lecture
-  link 200 #%ea%b8%b0%ea%b0%84%ea%b3%bc-%ec%83%81%ed%83%9c-1
-  link 200 #%eb%aa%a9%ec%a0%81-1
-  link 200 #%ec%97%ad%ed%95%a0-1
-  link 200 #%ea%b3%bc%ec%a0%95
-  link 200 #%ec%82%b0%ec%b6%9c%eb%ac%bc-1
   link 200 https://github.com/web-n/web2_javascript
-  link 200 #%eb%b0%b0%ec%9a%b4-%ec%a0%90%ea%b3%bc-%ea%b0%9c%ec%84%a0-%eb%b0%a9%ed%96%a5-1
   link 200 #portfolio
   link 200 ../about/#goal
   link 200 #page-top
