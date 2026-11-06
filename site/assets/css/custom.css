@@ -90,3 +90,9 @@ body.colorscheme-dark button:focus-visible {
   max-width: 100%;
   overflow-x: auto;
 }
+
+/* 앵커 이동 시 제목이 화면 맨 위에 딱 붙지 않도록 여백 확보 */
+.content h2[id],
+.content h3[id] {
+  scroll-margin-top: 2rem;
+}
