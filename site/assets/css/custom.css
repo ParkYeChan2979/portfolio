@@ -141,3 +141,16 @@ body.colorscheme-dark button:focus-visible {
 body.colorscheme-dark .home-shortcuts a {
   border-color: #42a5f5;
 }
+
+/* 홈 소개 문구: <h2> → <p> 변경 후에도 기존과 비슷한 크기로 표시 */
+.about .about-info {
+  margin: 1rem 0 0.5rem;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+@media only screen and (max-width: 768px) {
+  .about .about-info {
+    font-size: 1.8rem;
+  }
+}

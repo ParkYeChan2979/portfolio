@@ -1,0 +1,9 @@
+{{/* 테마 원본 home/author.html 재정의: 소개 문구가 제목이 아닌데 <h2>로 출력되던 것을 문단(<p>)으로 바꿔 제목 구조를 바로잡음 */}}
+<h1>{{ .Site.Params.author }}</h1>
+<p class="about-info">
+{{ if reflect.IsSlice .Site.Params.info }}
+  {{ range $i, $line := .Site.Params.info }}{{ if $i }}<br>{{ end }}{{ $line | markdownify }}{{ end }}
+{{ else }}
+  {{ .Site.Params.info | markdownify }}
+{{ end }}
+</p>
