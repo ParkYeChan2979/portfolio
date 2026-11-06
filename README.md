@@ -95,6 +95,18 @@ python tools/check_site.py
 
 화면 폭(1440·768·390px), 키보드(Tab·Enter) 조작, 200% 확대는 크롬 개발자도구 기기 모드로 직접 확인합니다.
 
+## 검증 기록
+
+공개 사이트를 검증한 결과물을 [`evidence/`](evidence/) 폴더에 두었습니다. 그림 번호, 설명, URL, 폭, 시각, 방법은 [`evidence/captures.md`](evidence/captures.md)에 정리했습니다.
+
+| 파일 | 내용 |
+| --- | --- |
+| `evidence/fig01_home_1440.png` ~ `fig11_console_1440.png`, `fig14_zoom200_1440.png` | 1440·390px 화면, 모바일 메뉴, 키보드 초점, Network·Console, 200% 확대 캡처 |
+| `evidence/auto_verify_log.txt` | Playwright로 Chrome 156·Edge 156을 조작한 자동 검증 131개 항목 결과 |
+| `evidence/check_site_log.txt` | `tools/check_site.py` 링크·자산 점검 결과 |
+
+검증 대상 커밋은 `eb233a8`입니다. 이후 커밋은 `evidence/`와 README만 바꾸며, 사이트 빌드에 쓰는 `site/` 폴더는 바꾸지 않습니다.
+
 ## 출처와 이용 조건
 
 ### 외부 자료
