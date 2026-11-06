@@ -64,3 +64,18 @@ python .github/pages_build.py --build
 ```
 
 GitHub Actions와 같은 스크립트입니다. 결과는 `public/` 폴더에 생성되고, `public/index.html`이 홈 페이지입니다. `public/`은 `.gitignore`로 제외되어 커밋되지 않습니다.
+
+## 내용 수정과 재배포 방법
+
+1. 위 표의 파일을 수정합니다. 예: 소개 글은 `site/content/about.md`, 메뉴는 `site/hugo.toml`의 `[[languages.ko.menu.main]]`
+2. (선택) 로컬 미리보기 서버로 결과를 확인합니다.
+3. `main` 브랜치에 커밋하고 push합니다.
+   ```bash
+   git add site/content/about.md
+   git commit -m "콘텐츠: 소개 페이지 학습 목표 수정"
+   git push origin main
+   ```
+4. GitHub 저장소의 **Actions** 탭(<https://github.com/ParkYeChan2979/portfolio/actions>)에서 방금 push한 커밋의 **Deploy Hugo to GitHub Pages** 실행을 확인합니다. `build`와 `deploy` 작업이 모두 초록색 체크면 성공입니다(보통 1~2분).
+5. 공개 사이트(<https://parkyechan2979.github.io/portfolio/>)를 새로고침해 변경 내용이 반영됐는지 확인합니다. 이전 화면이 보이면 `Ctrl + Shift + R`로 캐시 없이 새로고침합니다.
+
+> GitHub 저장소 **Settings → Pages → Build and deployment → Source**는 **GitHub Actions**로 설정되어 있어야 합니다.
