@@ -121,3 +121,23 @@ body.colorscheme-dark button:focus-visible {
     scroll-behavior: auto !important;
   }
 }
+
+/* 홈 바로가기 버튼: 390px 화면에서도 손가락으로 구분해 누를 수 있게 넉넉한 크기와 간격 */
+.home-shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 3rem;
+}
+.home-shortcuts a {
+  display: inline-block;
+  min-width: 12rem;
+  padding: 1.2rem 2rem;
+  border: 2px solid #1565c0;
+  border-radius: 0.6rem;
+  text-align: center;
+}
+body.colorscheme-dark .home-shortcuts a {
+  border-color: #42a5f5;
+}
