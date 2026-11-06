@@ -114,6 +114,8 @@ python tools/check_site.py
 | 자료 | 구분 | 설명 |
 | --- | --- | --- |
 | `site/static/images/avatar.jpg` | 직접 촬영 + AI 도움 편집 | 본인이 촬영한 행사 사진입니다. 화이트보드의 타인 이메일 지우기, 정사각형 자르기, EXIF 제거는 AI(Claude)가 만든 Python(Pillow) 명령으로 처리했습니다. |
+| `site/static/images/favicon.svg`, `favicon-16x16.png`, `favicon-32x32.png`, `apple-touch-icon.png` | AI 도움 제작 | 테마 데모 로고 대신 쓰려고 'Y' 글자 아이콘을 AI(Claude)가 SVG와 Pillow 코드로 만들었습니다. 색상(#1565c0)은 사이트 링크 색과 맞췄습니다. |
+| `site/static/images/projects/portfolio-home-1440.jpg` | 직접 제작 화면 캡처 | 이 사이트 홈 화면을 크롬 headless로 캡처한 이미지입니다. |
 | `site/content/about.md`, `site/content/projects.md` | 직접 작성 + AI 문장 정리 | 내용(관심 분야, 목표, 활동 사실)은 본인이 제공했고, AI(Claude)가 문장을 정리했습니다. 본인이 사실 여부를 확인했습니다. |
 | `site/hugo.toml` 수정 내용 | 직접 설정 + AI 도움 | 이름, 메뉴, 링크 등 값은 본인이 정했고, AI 도움으로 반영했습니다. |
 | `site/assets/css/custom.css`, `site/assets/js/custom.js`, `site/layouts/_partials/**` | AI 도움 작성 + 본인 검증 | 접근성·반응형 문제를 점검해 AI(Claude)가 수정 코드를 제안했습니다. 본인이 배포 사이트에서 동작을 확인했습니다. |
