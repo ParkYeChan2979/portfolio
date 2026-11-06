@@ -22,10 +22,10 @@ slug = "about"
 | 기술·도구 | 실제 사용 사례 |
 | --- | --- |
 | HTML · CSS · JavaScript | 2026년 10월 기초 강의 예제를 VS Code에서 직접 수정·실행하며 문서 구조, 스타일, 야간/주간 모드 버튼 기능을 실습했습니다. ([활동 2](../projects/#web-lecture)) |
-| Git · GitHub · GitHub Actions | 이 사이트의 모든 수정을 커밋·push로 기록하고, push할 때마다 GitHub Actions로 자동 빌드·배포되게 구성했습니다. ([활동 1](../projects/#portfolio)) |
-| Hugo · Markdown | Hugo Coder 테마로 이 사이트를 만들고, 소개와 활동 글을 Markdown으로 작성했습니다. ([활동 1](../projects/#portfolio)) |
+| Git · GitHub · GitHub Actions | GitHub 저장소를 만들고 Pages 배포 방식을 GitHub Actions로 설정했으며, 실패한 첫 배포 실행을 직접 다시 실행했습니다. 이 사이트의 변경은 AI 도구(Claude Code)와 함께 작은 단위로 커밋·push해 기록했고, push할 때마다 자동 배포되는 것을 확인했습니다. ([활동 1](../projects/#portfolio)) |
+| Hugo · Markdown | Hugo Coder 테마를 골라 이 사이트를 만들었습니다. 소개·활동에 담을 내용은 직접 정했고, AI 도구의 도움을 받아 Markdown 글로 정리했습니다. ([활동 1](../projects/#portfolio)) |
 
-숙련도는 아직 기초 단계이며, 배운 것을 실제 결과물에 적용하면서 익히고 있습니다.
+숙련도는 아직 기초 단계입니다. AI 도구를 함께 쓰면서 배운 것을 실제 결과물에 적용하며 익히고 있습니다.
 
 ## 연락 {#contact}
 
