@@ -1,0 +1,2 @@
+{{- /* 테마 원본 render-heading.html 재정의: 마우스를 올려야만 보이던 "제목 링크" 아이콘을 없애 터치·키보드 사용자에게 숨은 기능이 남지 않게 함. 제목 id(앵커)는 유지 */ -}}
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}</h{{ .Level }}>
