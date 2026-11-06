@@ -159,3 +159,11 @@ body.colorscheme-dark .home-shortcuts a {
     font-size: 1.8rem;
   }
 }
+
+/* 고정 다크 모드 버튼(오른쪽 아래)이 좁은 화면에서 푸터 글자를 가리지 않도록 푸터 아래·오른쪽 여백 확보 */
+@media only screen and (max-width: 768px) {
+  .footer {
+    padding-right: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+}
