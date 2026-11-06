@@ -110,3 +110,14 @@ body.colorscheme-dark button:focus-visible {
   display: inline-block;
   padding: 0.8rem 0;
 }
+
+/* 움직임 줄이기 설정(prefers-reduced-motion)을 켠 사용자는 전환 효과·부드러운 스크롤을 끔 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}
