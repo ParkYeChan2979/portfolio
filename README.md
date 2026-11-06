@@ -105,7 +105,7 @@ python tools/check_site.py
 | `evidence/auto_verify_log.txt` | Playwright로 Chrome 156·Edge 156을 조작한 자동 검증 131개 항목 결과 |
 | `evidence/check_site_log.txt` | `tools/check_site.py` 링크·자산 점검 결과 |
 
-검증 대상 커밋은 `eb233a8`입니다. 이후 커밋은 `evidence/`와 README만 바꾸며, 사이트 빌드에 쓰는 `site/` 폴더는 바꾸지 않습니다.
+검증 대상 커밋은 `f6999df`입니다. 이후 커밋은 `evidence/`와 README만 바꾸며, 사이트 빌드에 쓰는 `site/` 폴더는 바꾸지 않습니다.
 
 ## 출처와 이용 조건
 
