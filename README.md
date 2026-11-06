@@ -79,3 +79,29 @@ GitHub Actions와 같은 스크립트입니다. 결과는 `public/` 폴더에 �
 5. 공개 사이트(<https://parkyechan2979.github.io/portfolio/>)를 새로고침해 변경 내용이 반영됐는지 확인합니다. 이전 화면이 보이면 `Ctrl + Shift + R`로 캐시 없이 새로고침합니다.
 
 > GitHub 저장소 **Settings → Pages → Build and deployment → Source**는 **GitHub Actions**로 설정되어 있어야 합니다.
+
+## 출처와 이용 조건
+
+### 외부 자료
+
+| 자료 | 사용 위치 | 원본 | 이용 조건 |
+| --- | --- | --- | --- |
+| Hugo Coder 테마 (Luiz F. A. de Prá) | `site/themes/template/`, 루트의 테마 원본 파일 | <https://github.com/luizdepra/hugo-coder> | MIT License: [`LICENSE.md`](LICENSE.md) 유지, 사이트 하단 "Powered by Hugo & Coder" 표기 유지 |
+| Font Awesome Free 6 (Fonticons, Inc.) | 테마에 포함된 아이콘 글꼴 `site/themes/template/static/fonts/` | <https://fontawesome.com> | 아이콘 CC BY 4.0, 글꼴 SIL OFL 1.1: [`static/fonts/LICENSE.txt`](static/fonts/LICENSE.txt) 유지 |
+| normalize.css 8.0.1 | 테마 `assets/scss/css/normalize.css` | <https://github.com/necolas/normalize.css> | MIT (파일 머리말에 고지 유지) |
+| DOMPurify 2.4.1 | 테마 `assets/js/purify.min.js` | <https://github.com/cure53/DOMPurify> | Apache 2.0 / MPL 2.0 (파일 머리말에 고지 유지) |
+| Hugo | 사이트 생성 도구 | <https://gohugo.io> | Apache 2.0 |
+| 배포 준비 스크립트 `prepare_github_pages.py` 3.1 | 루트 `prepare_github_pages.py`, `.github/pages_build.py`, `.github/workflows/hugo-pages.yml`, `site/pages.json`, `.github-pages.json` | 초급프로젝트 수업 제공 | 수업 과제용 |
+| 생활코딩 WEB 강의 예제 (egoing) | 활동 페이지에서 **링크로만** 소개 (코드는 이 저장소에 포함하지 않음) | <https://github.com/web-n/web2_javascript> | 원저작자 저장소 링크로 출처 표기 |
+
+### 직접 제작과 AI 활용 구분
+
+| 자료 | 구분 | 설명 |
+| --- | --- | --- |
+| `site/static/images/avatar.jpg` | 직접 촬영 + AI 도움 편집 | 본인이 촬영한 행사 사진입니다. 화이트보드의 타인 이메일 지우기, 정사각형 자르기, EXIF 제거는 AI(Claude)가 만든 Python(Pillow) 명령으로 처리했습니다. |
+| `site/content/about.md`, `site/content/projects.md` | 직접 작성 + AI 문장 정리 | 내용(관심 분야, 목표, 활동 사실)은 본인이 제공했고, AI(Claude)가 문장을 정리했습니다. 본인이 사실 여부를 확인했습니다. |
+| `site/hugo.toml` 수정 내용 | 직접 설정 + AI 도움 | 이름, 메뉴, 링크 등 값은 본인이 정했고, AI 도움으로 반영했습니다. |
+| `site/assets/css/custom.css`, `site/assets/js/custom.js`, `site/layouts/_partials/**` | AI 도움 작성 + 본인 검증 | 접근성·반응형 문제를 점검해 AI(Claude)가 수정 코드를 제안했습니다. 본인이 배포 사이트에서 동작을 확인했습니다. |
+| `README.md` | AI 도움 작성 + 본인 검토 | |
+
+AI 도구: Anthropic Claude (Claude Code, 모델 Claude Opus 5.5), 사용일 2026-11-06. 상세 사용 기록은 과제 보고서에 정리했습니다.
