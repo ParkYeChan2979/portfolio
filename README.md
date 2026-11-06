@@ -80,6 +80,21 @@ GitHub Actions와 같은 스크립트입니다. 결과는 `public/` 폴더에 �
 
 > GitHub 저장소 **Settings → Pages → Build and deployment → Source**는 **GitHub Actions**로 설정되어 있어야 합니다.
 
+## 배포 결과 점검 방법
+
+```bash
+python tools/check_site.py
+```
+
+공개 사이트의 홈·소개·활동·404 페이지를 내려받아 다음을 자동으로 확인합니다. 문제가 없으면 `== PROBLEMS: 0`을 출력하고 종료 코드 0을 반환합니다.
+
+- 링크, CSS, JS, 이미지의 응답 코드(200)
+- `#앵커` 대상이 실제로 있는지
+- `<html lang="ko">`, 제목 구조, 이미지 alt
+- `localhost`, `file://`, `http://` 흔적이 남았는지
+
+화면 폭(1440·768·390px), 키보드(Tab·Enter) 조작, 200% 확대는 크롬 개발자도구 기기 모드로 직접 확인합니다.
+
 ## 출처와 이용 조건
 
 ### 외부 자료
