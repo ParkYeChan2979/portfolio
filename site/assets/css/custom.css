@@ -186,3 +186,8 @@ body.colorscheme-dark .home-shortcuts a {
 #main-content:focus {
   outline: none;
 }
+
+/* 다크 모드에서 하단 이동 링크 구분선이 너무 밝게 보이지 않도록 색 조정 */
+body.colorscheme-dark .page-bottom-nav {
+  border-top-color: #4f4f4f;
+}
