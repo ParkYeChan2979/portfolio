@@ -1,4 +1,4 @@
-{{/* 테마 원본 baseof.html 재정의: 키보드 사용자를 위한 "본문으로 건너뛰기" 링크와 본문 영역 id 추가 */}}
+{{/* 테마 원본 baseof.html 재정의: 키보드 사용자를 위한 "본문으로 건너뛰기" 링크와 본문 영역 id, 페이지 맨 위 이동 대상(id="page-top") 추가 */}}
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
 
@@ -18,7 +18,7 @@
 <body class="preload-transitions {{ $csClass }}{{ if .Site.Params.rtl }} rtl{{ end }}">
   <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
   {{ partial "float" . }}
-  <main class="wrapper">
+  <main class="wrapper" id="page-top">
     {{ partial "header.html" . }}
 
     <div class="content" id="main-content" tabindex="-1">
