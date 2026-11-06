@@ -26,3 +26,7 @@ slug = "about"
 | Hugo · Markdown | Hugo Coder 테마로 이 사이트를 만들고, 소개와 활동 글을 Markdown으로 작성했습니다. ([활동 1](../projects/#portfolio)) |
 
 숙련도는 아직 기초 단계이며, 배운 것을 실제 결과물에 적용하면서 익히고 있습니다.
+
+## 연락 {#contact}
+
+- GitHub: [ParkYeChan2979](https://github.com/ParkYeChan2979). 이 사이트의 소스는 [portfolio 저장소](https://github.com/ParkYeChan2979/portfolio)에 있습니다.
