@@ -1,25 +1,18 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+title = "소개"
+description = "YCP의 관심 분야, 학습 목표, 역량"
+slug = "about"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+안녕하세요. **전북대학교 IT지능정보공학과**에 재학 중인 **YCP**입니다. 웹개발을 배우고 있습니다.
 
-Hugo makes use of a variety of open source projects including:
+## 관심 분야
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+**웹개발**에 관심이 있습니다.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+학교에서 프로그래밍 언어 수업을 들으면서, 배운 코드를 화면으로 직접 확인하고 다른 사람이 사용할 수 있는 웹을 만들어 보고 싶다는 생각이 들었습니다. 그래서 웹개발을 공부하기 시작했습니다.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+## 학습 목표와 계획
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+- **목표:** 웹개발자가 되기 위해 프론트엔드와 백엔드를 모두 다루는 풀스택 개발 역량을 기르기
+- **다음 행동:** 웹서비스설계 수업에서 배우는 내용을 바탕으로, 2026년 겨울방학 동안 회원가입·게시판 기능이 있는 풀스택 웹서비스를 직접 기획하고 개발해 GitHub에 올리고, 이 사이트의 [활동](../projects/)에 추가하기
