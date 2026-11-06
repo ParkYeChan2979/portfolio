@@ -79,3 +79,14 @@ body.colorscheme-dark button:focus-visible {
   overflow-wrap: anywhere;
   word-break: keep-all;
 }
+
+/* 이미지·표 크기 대응: 이미지는 화면 폭에 맞게 비율 유지 축소, 표는 영역 안에서만 가로 스크롤 */
+.content img {
+  max-width: 100%;
+  height: auto;
+}
+.content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
