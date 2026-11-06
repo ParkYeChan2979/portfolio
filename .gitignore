@@ -17,3 +17,16 @@ public
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+
+# 개인 환경·편집기·OS 임시 파일
+.vscode/
+*.code-workspace
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
+*.swp
+# Hugo 로컬 미리보기·빌드 부산물
+/site/public/
+/site/resources/_gen/
+hugo_stats.json
