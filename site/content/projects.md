@@ -55,6 +55,10 @@ slug = "projects"
 - **소스 저장소:** <https://github.com/ParkYeChan2979/portfolio>. 설정, 글, 배포 설정과 작업 커밋 이력을 볼 수 있습니다.
 - **자동 배포 기록:** [GitHub Actions 실행 목록](https://github.com/ParkYeChan2979/portfolio/actions). push할 때마다 빌드와 배포가 자동으로 실행된 기록입니다.
 
+![완성한 포트폴리오 홈 화면(1440px): 가운데에 원형 프로필 사진, 이름 YCP, 소개 문구, GitHub 아이콘, '소개 보기'·'활동 보기' 버튼이 있고 오른쪽 위에 소개·활동 메뉴가 있다](../images/projects/portfolio-home-1440.jpg)
+
+위 화면은 데스크톱(1440px)에서 본 홈입니다. 이름과 소개, GitHub 링크, 소개·활동 바로가기가 한 화면에 보이도록 구성했습니다.
+
 ### 배운 점과 개선 방향
 
 - **배운 점:** 저장소 이름이 주소에 들어가는 GitHub Pages 사이트(`/portfolio/`)에서는 사이트 기본 주소(baseURL)가 맞아야 CSS와 이미지가 제대로 열린다는 것을 알게 되었습니다. 작은 단위로 커밋하면 무엇을 언제 바꿨는지 추적하기 쉽다는 것도 배웠습니다.
