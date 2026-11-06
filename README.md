@@ -15,9 +15,11 @@
 | `site/content/about.md` | 소개 페이지 (관심 분야, 학습 목표, 역량) |
 | `site/content/projects.md` | 활동 페이지 (대표 활동의 기간·목적·역할·과정·산출물·배운 점) |
 | `site/static/images/` | 아바타·파비콘 이미지 |
-| `site/assets/css/custom.css` | 직접 추가한 스타일 (키보드 초점, 모바일 메뉴, 긴 텍스트·이미지 대응) |
-| `site/assets/js/custom.js` | 직접 추가한 스크립트 (모바일 메뉴 Enter 키 조작) |
-| `site/layouts/_partials/` | 테마 원본을 덮어쓰는 템플릿 (아바타 alt, 메뉴·다크 모드 버튼 접근성, 아이콘 참조) |
+| `site/assets/css/custom.css` | 추가한 스타일: 키보드 초점, 모바일 메뉴, 다크 모드 버튼, 긴 텍스트·이미지, 홈 바로가기, 하단 이동 링크 |
+| `site/assets/js/custom.js` | 추가한 스크립트: 모바일 메뉴 Enter 키 조작 |
+| `site/layouts/` | 테마 원본을 덮어쓰는 템플릿. `baseof.html`(본문으로 건너뛰기, 페이지 맨 위 이동 대상), `_markup/render-heading.html`(제목 링크 아이콘 제거), `_partials/`(메뉴·다크 모드 버튼 접근성, 아바타 alt, 홈 소개 문구·바로가기, 페이지 하단 링크, 푸터 소스 링크, 404 페이지, 아이콘 참조) |
+| `tools/check_site.py` | 공개 사이트 링크·자산 자동 점검 스크립트 |
+| `evidence/` | 검증 캡처와 로그 (아래 "검증 기록" 참고) |
 | `site/themes/template/` | Hugo Coder 테마 원본 (직접 수정하지 않음) |
 | `site/pages.json` | 배포용 설정 (baseURL 등). 수업 제공 스크립트가 생성. 직접 수정하지 않음 |
 | `.github/workflows/hugo-pages.yml` | GitHub Actions 배포 워크플로 (Hugo 버전 지정) |
@@ -105,7 +107,7 @@ python tools/check_site.py
 | `evidence/auto_verify_log.txt` | Playwright로 Chrome 156·Edge 156을 조작한 자동 검증 131개 항목 결과 |
 | `evidence/check_site_log.txt` | `tools/check_site.py` 링크·자산 점검 결과 |
 
-검증 대상 커밋은 `f6999df`입니다. 이후 커밋은 `evidence/`와 README만 바꾸며, 사이트 빌드에 쓰는 `site/` 폴더는 바꾸지 않습니다.
+검증 대상 커밋은 `ed1771e`입니다. 이후 커밋은 `evidence/`와 README만 바꾸며, 사이트 빌드에 쓰는 `site/` 폴더는 바꾸지 않습니다.
 
 ## 출처와 이용 조건
 
@@ -127,10 +129,13 @@ python tools/check_site.py
 | --- | --- | --- |
 | `site/static/images/avatar.jpg` | 직접 촬영 + AI 도움 편집 | 본인이 촬영한 행사 사진입니다. 화이트보드의 타인 이메일 지우기, 정사각형 자르기, EXIF 제거는 AI(Claude)가 만든 Python(Pillow) 명령으로 처리했습니다. |
 | `site/static/images/favicon.svg`, `favicon-16x16.png`, `favicon-32x32.png`, `apple-touch-icon.png` | AI 도움 제작 | 테마 데모 로고 대신 쓰려고 'Y' 글자 아이콘을 AI(Claude)가 SVG와 Pillow 코드로 만들었습니다. 색상(#1565c0)은 사이트 링크 색과 맞췄습니다. |
-| `site/static/images/projects/portfolio-home-1440.jpg` | 직접 제작 화면 캡처 | 이 사이트 홈 화면을 크롬 headless로 캡처한 이미지입니다. |
-| `site/content/about.md`, `site/content/projects.md` | 직접 작성 + AI 문장 정리 | 내용(관심 분야, 목표, 활동 사실)은 본인이 제공했고, AI(Claude)가 문장을 정리했습니다. 본인이 사실 여부를 확인했습니다. |
+| `site/static/images/projects/portfolio-home-1440.jpg` | AI 도구로 캡처 | 이 사이트 홈 화면을 AI(Claude)가 크롬 headless로 캡처했습니다. |
+| `site/content/about.md`, `site/content/projects.md` | 본인 내용 제공 + AI 문장 작성 | 내용(관심 분야, 목표, 활동 사실)은 본인이 제공했고, AI(Claude)가 문장을 작성·정리했습니다. 본인이 사실 여부를 확인했습니다. |
 | `site/hugo.toml` 수정 내용 | 직접 설정 + AI 도움 | 이름, 메뉴, 링크 등 값은 본인이 정했고, AI 도움으로 반영했습니다. |
-| `site/assets/css/custom.css`, `site/assets/js/custom.js`, `site/layouts/_partials/**` | AI 도움 작성 + 본인 검증 | 접근성·반응형 문제를 점검해 AI(Claude)가 수정 코드를 제안했습니다. 본인이 배포 사이트에서 동작을 확인했습니다. |
+| `site/assets/css/custom.css`, `site/assets/js/custom.js`, `site/layouts/**`(`baseof.html`, `_markup/`, `_partials/`) | AI 작성 + 본인 검증 | 접근성·반응형 문제를 점검해 AI(Claude)가 수정 코드를 작성했습니다. 본인이 배포 사이트에서 동작을 확인했습니다. |
+| `tools/check_site.py` | AI 작성 + 본인 실행 확인 | 링크·자산 점검 스크립트를 AI(Claude)가 작성했습니다. |
+| `evidence/` | AI 자동화 캡처 + 본인 직접 캡처 | 캡처 12장 중 10장과 로그는 AI(Claude)가 작성한 Playwright 자동 검증으로 만들었습니다. 그림 10·11(Network·Console)은 본인이 시크릿 창에서 직접 찍었습니다. |
+| `.gitignore` 추가 규칙, `.gitattributes`, Git 커밋·push 실행 | AI 작성·실행 + 본인 승인 | 저장소 생성과 GitHub Pages 설정, 첫 실패 실행의 재실행은 본인이 직접 했습니다. |
 | `README.md` | AI 도움 작성 + 본인 검토 | |
 
 AI 도구: Anthropic Claude (Claude Code, 모델 Claude Opus 5.5), 사용일 2026-11-06. 상세 사용 기록은 과제 보고서에 정리했습니다.
