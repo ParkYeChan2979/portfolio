@@ -28,6 +28,7 @@ description = "전북대학교 IT지능정보공학과 YCP의 웹개발 포트�
 keywords = "포트폴리오,웹개발,HTML,CSS,JavaScript,전북대학교"
 info = ["전북대학교 IT지능정보공학과 재학", "웹개발을 배우고 있습니다"]
 avatarURL = "images/avatar.jpg"
+avatarAlt = "YCP 프로필 사진: 해커톤 행사장에서 휴대폰으로 발표 화면을 촬영하는 뒷모습"
 #gravatar = "john.doe@example.com"
 dateFormat = "2006-01-02"
 since = 2026

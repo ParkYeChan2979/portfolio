@@ -1,0 +1,6 @@
+{{/* 테마 원본 home/avatar.html 재정의: alt="avatar" 대신 사진 내용을 설명하는 avatarAlt 사용 */}}
+{{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
+  {{ with .Site.Params.avatarURL }}
+    <div class="avatar"><img src="{{ . | relURL }}" alt="{{ $.Site.Params.avatarAlt | default "프로필 사진" }}" width="600" height="600"></div>
+  {{ end }}
+{{ end }}
