@@ -54,3 +54,16 @@ body.colorscheme-dark .float-container button:hover,
 body.colorscheme-dark .float-container button:focus-visible {
   color: #42a5f5;
 }
+
+/* 키보드 초점 표시: 원본은 링크에 초점이 와도 밑줄만 생겨 구별이 약함 → 모든 링크·버튼에 뚜렷한 테두리 */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #1565c0;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+body.colorscheme-dark a:focus-visible,
+body.colorscheme-dark button:focus-visible {
+  outline-color: #42a5f5;
+}
