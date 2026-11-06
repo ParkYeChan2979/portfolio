@@ -1,0 +1,21 @@
+{{/* 테마 원본 footer.html 재정의: 테마 출처 표기(Hugo & Coder)는 그대로 두고 이 사이트의 소스 저장소 링크 추가 */}}
+<footer class="footer">
+  <section class="container">
+    ©
+    {{ if (and .Site.Params.since (lt .Site.Params.since now.Year)) }}
+      {{ .Site.Params.since }} -
+    {{ end }}
+    {{ now.Year }}
+    {{ with .Site.Params.author }} {{ . }} {{ end }}
+    ·
+    {{ if (and .Site.Params.license) }}
+      {{ i18n "licensed_under" }} {{ .Site.Params.license | safeHTML }}
+    ·
+    {{ end }}
+    {{ i18n "powered_by" }} <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    · <a href="https://github.com/ParkYeChan2979/portfolio" target="_blank" rel="noopener">소스 코드</a>
+    {{ if (and .Site.Params.commit .GitInfo) }}
+      [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a>]
+    {{ end }}
+  </section>
+</footer>
