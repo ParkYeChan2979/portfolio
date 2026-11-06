@@ -191,3 +191,11 @@ body.colorscheme-dark .home-shortcuts a {
 body.colorscheme-dark .page-bottom-nav {
   border-top-color: #4f4f4f;
 }
+
+/* 푸터 링크 문구가 좁은 화면에서 "소/스 코드"처럼 글자 중간에서 줄바꿈되지 않도록 함 */
+.footer a {
+  white-space: nowrap;
+}
+.footer {
+  word-break: keep-all;
+}
