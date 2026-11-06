@@ -67,3 +67,15 @@ body.colorscheme-dark a:focus-visible,
 body.colorscheme-dark button:focus-visible {
   outline-color: #42a5f5;
 }
+
+/* 긴 URL·제목 줄바꿈: 좁은 화면에서 긴 주소가 본문 밖으로 넘치지 않게 함 */
+.content article,
+.content h1,
+.content h2,
+.content h3,
+.content p,
+.content li,
+.content td {
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
