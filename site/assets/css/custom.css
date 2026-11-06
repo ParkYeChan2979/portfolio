@@ -17,3 +17,40 @@
     outline-offset: 2px;
   }
 }
+
+/* 다크 모드 버튼: <a> → <button> 변경에 맞춰 테마의 .float-container a 모양을 그대로 적용 */
+.float-container button {
+  position: relative;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
+  border: 0;
+  font-size: 2rem;
+  color: #000;
+  background-color: #e0e0e0;
+  border-radius: 0.2rem;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.25s ease-in;
+}
+.float-container button:hover,
+.float-container button:focus-visible {
+  color: #1565c0;
+  opacity: 1;
+}
+.float-container button i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body.colorscheme-dark .float-container button {
+  color: #dadada;
+  background-color: #424242;
+}
+body.colorscheme-dark .float-container button:hover,
+body.colorscheme-dark .float-container button:focus-visible {
+  color: #42a5f5;
+}

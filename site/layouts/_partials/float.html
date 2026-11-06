@@ -1,0 +1,8 @@
+{{/* 테마 원본 float.html 재정의: href 없는 <a>는 키보드 초점을 받지 못하므로 <button>으로 바꾸고 접근 가능한 이름 추가 */}}
+{{ if not .Site.Params.hideColorSchemeToggle }}
+<div class="float-container">
+    <button type="button" id="dark-mode-toggle" class="colorscheme-toggle" aria-label="다크 모드 켜기/끄기" title="다크 모드 켜기/끄기">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </button>
+</div>
+{{ end }}
