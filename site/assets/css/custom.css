@@ -123,6 +123,10 @@ body.colorscheme-dark button:focus-visible {
 }
 
 /* 홈 바로가기 버튼: 390px 화면에서도 손가락으로 구분해 누를 수 있게 넉넉한 크기와 간격 */
+/* 테마의 .centered는 가로(row) flex라 바로가기가 소개 옆으로 붙어 좁은 화면 밖으로 넘침 → 세로 배치 */
+.container.centered {
+  flex-direction: column;
+}
 .home-shortcuts {
   display: flex;
   flex-wrap: wrap;
